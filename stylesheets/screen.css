@@ -1,0 +1,689 @@
+/*
+Theme Name: Name
+Author: Author
+Description: Description
+*/
+/*--------------------------------------------------------------
+>>> CSS STANDARDS
+----------------------------------------------------------------
+1. Place in appropriate section
+2. Add new sections to the Table of Contents
+3. Order properties alphabetically inside each declaration
+4. Declaration selectors should each occupy a new line
+5. Enter one new line between declarations
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - SASS 
+	1.1 - Variables
+	1.2 - Mixins
+	1.3 - Extends
+2.0 - Typography
+	2.1 - Headings
+	2.2 - Body Copy
+	2.3 - Buttons
+	2.4 - Forms
+	2.5 - Lists
+	2.6 - Tables
+3.0 - Navigation Menus
+4.0 - Content
+	4.1 - Site Structure
+	4.2 - Site Header
+	4.3 - Advertisement
+	4.4 - Site Footer
+	4.5 - Dashboard
+	4.6 - Dashbaord List View
+	4.7 - Trial Dashboard
+5.0 - Media
+6.0 - Utility
+	7.1 - Carousels
+	7.2 - Progress Bars
+	7.3 - Tool Tips
+	7.4 - Modals
+	7.5 - Background Colors
+	7.6 - Text Colors
+	7.7 - Text Sizes
+	7.8 - Alignments
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - SASS
+-------------------------------------------------------------- */
+/*--------------------------------------------------------------
+1.1 - Variables
+-------------------------------------------------------------- */
+/*---------------------------
+1.1 - Mixins
+--------------------------- */
+/*---------------------------
+1.2 - Extends
+--------------------------- */
+/* line 94, ../sass/screen.scss */
+.section, #event, #about, #attendees, #connect, #contact {
+  padding: 50px 0;
+}
+
+/*--------------------------------------------------------------
+2.0 - Typography
+-------------------------------------------------------------- */
+/* line 110, ../sass/screen.scss */
+* {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* line 117, ../sass/screen.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 120, ../sass/screen.scss */
+.fa {
+  color: #07505d;
+  font-size: 18px;
+  margin: 3px 0;
+  padding-right: 7px;
+}
+/* line 125, ../sass/screen.scss */
+.fa:hover {
+  color: #aa331d;
+  cursor: pointer;
+}
+
+/*---------------------------
+2.1 - Headings
+--------------------------- */
+/* line 134, ../sass/screen.scss */
+h1 {
+  color: #aa331d;
+  font-family: Roboto Slab, serif;
+  font-size: 18px;
+  line-height: 23px;
+  padding-top: 30px;
+}
+
+/* line 143, ../sass/screen.scss */
+h2 {
+  color: #aa331d;
+  font-family: Roboto Slab, serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* line 152, ../sass/screen.scss */
+h3 {
+  color: #53422b;
+  font-family: Roboto Slab, serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0 4px 0;
+}
+
+/* line 161, ../sass/screen.scss */
+h4 {
+  font-family: Roboto Slab, serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* line 169, ../sass/screen.scss */
+footer p {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 3px;
+  line-height: 14px;
+}
+/* line 175, ../sass/screen.scss */
+footer a {
+  color: #fff;
+  font-family: Roboto Slab, serif;
+}
+/* line 178, ../sass/screen.scss */
+footer a:hover {
+  color: #fff;
+}
+
+/* line 184, ../sass/screen.scss */
+#landing-page h2 {
+  color: #f8ecdd;
+  font-family: Roboto Slab, serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* line 193, ../sass/screen.scss */
+#landing-page h3 a {
+  color: #edcfaa;
+  font-family: Roboto Slab, serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0 4px 0;
+}
+/* line 201, ../sass/screen.scss */
+#landing-page h3 a:hover {
+  color: #f8ecdd;
+}
+/* line 205, ../sass/screen.scss */
+#landing-page p {
+  margin-bottom: 5px;
+  line-height: 16px;
+}
+/* line 209, ../sass/screen.scss */
+#landing-page p.lead {
+  line-height: 25px;
+}
+
+/*---------------------------
+2.2 - Body Copy
+--------------------------- */
+/*---------------------------
+2.5 - Lists
+--------------------------- */
+/*---------------------------
+2.6 - Forms
+--------------------------- */
+/* line 225, ../sass/screen.scss */
+form {
+  margin-top: 75px;
+  color: #53422b;
+}
+/* line 228, ../sass/screen.scss */
+form label {
+  font-family: Roboto Slab, serif;
+}
+/* line 232, ../sass/screen.scss */
+form .form-inline label, form .form-inline input {
+  display: block;
+}
+/* line 235, ../sass/screen.scss */
+form .form-inline .form-control {
+  width: 100%;
+}
+/* line 239, ../sass/screen.scss */
+form .form-group, form .form-inline .form-group, form .checkbox {
+  margin-bottom: 20px;
+}
+/* line 243, ../sass/screen.scss */
+form .checkbox label {
+  font-family: Lato, sans-serif;
+}
+/* line 247, ../sass/screen.scss */
+form button {
+  float: right;
+}
+/* line 250, ../sass/screen.scss */
+form .form-control {
+  background-color: #edcfaa;
+  border: 2px solid #edcfaa;
+}
+/* line 254, ../sass/screen.scss */
+form .form-control:focus {
+  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.075), 0 0 0 rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.075), 0 0 0 rgba(102, 175, 233, 0.6);
+  border: 2px solid #53422b;
+  color: #53422b;
+}
+/* line 260, ../sass/screen.scss */
+form .btn-default {
+  color: #07505d;
+  font-size: 22px;
+  font-family: Roboto Slab, serif;
+  background-color: #f8ecdd;
+  border-color: #07505d;
+}
+/* line 268, ../sass/screen.scss */
+form .btn-default:hover {
+  color: #fff;
+  background-color: #07505d;
+}
+
+/*--------------------------------------------------------------
+3.0 - Navigation Menus
+-------------------------------------------------------------- */
+/* line 278, ../sass/screen.scss */
+a {
+  color: #53422b;
+  text-decoration: none;
+}
+
+/* line 282, ../sass/screen.scss */
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #07505d;
+  color: #f8ecdd;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 289, ../sass/screen.scss */
+  .affix {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  /* line 296, ../sass/screen.scss */
+  .affix-top {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  /* line 301, ../sass/screen.scss */
+  .nav-justified > li.active a {
+    color: #aa331d;
+  }
+
+  /* line 304, ../sass/screen.scss */
+  .navbar-default {
+    background-color: #f8ecdd;
+    border: 0 solid #f8ecdd;
+    margin-bottom: 0;
+  }
+
+  /* line 309, ../sass/screen.scss */
+  .navbar {
+    min-height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 314, ../sass/screen.scss */
+  .affix {
+    position: static;
+  }
+
+  /* line 318, ../sass/screen.scss */
+  .navbar-header p {
+    float: left;
+    margin-top: 12px;
+  }
+
+  /* line 323, ../sass/screen.scss */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #f8ecdd;
+  }
+
+  /* line 326, ../sass/screen.scss */
+  .navbar-default {
+    background-color: #f8ecdd;
+    border-color: #f8ecdd;
+    border-radius: 5px;
+  }
+
+  /* line 331, ../sass/screen.scss */
+  .navbar-default .navbar-toggle {
+    border-color: #f8ecdd;
+    background-color: #f8ecdd;
+    margin-right: 6px;
+  }
+
+  /* line 336, ../sass/screen.scss */
+  .navbar-toggle {
+    float: left;
+  }
+
+  /* line 339, ../sass/screen.scss */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #07505d;
+  }
+
+  /* line 342, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #edcfaa;
+  }
+
+  /* line 345, ../sass/screen.scss */
+  .nav-justified > li > a {
+    text-align: left;
+  }
+}
+/*--------------------------------------------------------------
+4.0 - Content
+-------------------------------------------------------------- */
+/*---------------------------
+4.1 - Site Structure
+--------------------------- */
+/* line 355, ../sass/screen.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 360, ../sass/screen.scss */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 369, ../sass/screen.scss */
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  /* line 374, ../sass/screen.scss */
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  /* line 380, ../sass/screen.scss */
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 386, ../sass/screen.scss */
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+/* line 391, ../sass/screen.scss */
+.header-rule {
+  width: 50px;
+  height: 5px;
+  background-color: #53422b;
+  margin-bottom: 0;
+}
+
+/*---------------------------
+4.2 - Site Header
+--------------------------- */
+/*---------------------------
+4.3 - Event
+--------------------------- */
+/* line 404, ../sass/screen.scss */
+#event {
+  background-color: rgba(7, 80, 93, 0.5);
+}
+/* line 407, ../sass/screen.scss */
+#event h2 {
+  font-family: Roboto Slab, serif;
+  font-weight: 700;
+}
+/* line 413, ../sass/screen.scss */
+#event hr {
+  border-top: 1px solid #f8ecdd;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 418, ../sass/screen.scss */
+  #event h2 {
+    font-size: 70pt;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  /* line 423, ../sass/screen.scss */
+  #event h2 {
+    font-size: 60pt;
+  }
+
+  /* line 426, ../sass/screen.scss */
+  h1 {
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 989px) {
+  /* line 431, ../sass/screen.scss */
+  #event h2 {
+    font-size: 70pt;
+  }
+
+  /* line 434, ../sass/screen.scss */
+  h1 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+/*---------------------------
+4.4 - About
+--------------------------- */
+/* line 444, ../sass/screen.scss */
+#about hr {
+  border-top: 1px solid #53422b;
+}
+
+/*---------------------------
+4.5 - Attendees
+--------------------------- */
+/* line 453, ../sass/screen.scss */
+#attendees h3 {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 769px) {
+  /* line 459, ../sass/screen.scss */
+  #attendees .col-md-7 {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 466, ../sass/screen.scss */
+  #attendees .col-sm-6 {
+    margin-bottom: 15px;
+  }
+  /* line 469, ../sass/screen.scss */
+  #attendees .social-icons {
+    margin-bottom: 75px;
+  }
+}
+/*---------------------------
+4.6 - Connect
+--------------------------- */
+/*---------------------------
+4.6 - Contact
+--------------------------- */
+/* line 485, ../sass/screen.scss */
+#contact .container > .row > .col-sm-6:first-child {
+  padding-right: 75px;
+}
+
+/*---------------------------
+4.7 - Footer
+--------------------------- */
+/* line 492, ../sass/screen.scss */
+footer {
+  padding: 20px 0;
+}
+
+/*--------------------------------------------------------------
+5.0 - Media
+-------------------------------------------------------------- */
+/*--------------------------------------------------------------
+6.0 - Utility
+-------------------------------------------------------------- */
+/* line 503, ../sass/screen.scss */
+.hover-parent {
+  position: relative;
+}
+
+/* line 506, ../sass/screen.scss */
+.hover-content {
+  display: none;
+}
+
+/* line 509, ../sass/screen.scss */
+.hover-parent:hover .hover-content {
+  display: block;
+  height: 100%;
+  left: 0;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 519, ../sass/screen.scss */
+.hover-parent:hover .hover-content .hover-content-child {
+  background-color: rgba(7, 80, 93, 0.5);
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  color: #f8ecdd;
+  padding: 10px;
+  line-height: 18px;
+}
+
+/*---------------------------
+6.5 - Background Colors
+--------------------------- */
+/* line 532, ../sass/screen.scss */
+.bg-color-neutral {
+  background-color: #f8ecdd;
+  color: text-color;
+}
+
+/* line 537, ../sass/screen.scss */
+.bg-color-primary {
+  background-color: #07505d;
+}
+/* line 539, ../sass/screen.scss */
+.bg-color-primary h1, .bg-color-primary h2, .bg-color-primary h3, .bg-color-primary p {
+  color: #f8ecdd;
+}
+
+/* line 543, ../sass/screen.scss */
+.bg-color-secondary {
+  background-color: #aa331d;
+}
+
+/* line 546, ../sass/screen.scss */
+.bg-color-text {
+  background-color: #53422b;
+}
+
+/*---------------------------
+6.6 - Text Styles
+--------------------------- */
+/* line 554, ../sass/screen.scss */
+.text-smallcaps {
+  font-variant: small-caps;
+}
+
+/* line 557, ../sass/screen.scss */
+.text-primary {
+  color: #07505d;
+}
+
+/* line 560, ../sass/screen.scss */
+.text-secondary {
+  color: #aa331d;
+}
+
+/* line 563, ../sass/screen.scss */
+.text-neutral {
+  color: #edcfaa;
+}
+
+/*--------------------------------------------------------------
+6.8 - Alignments
+-------------------------------------------------------------- */
+/* line 570, ../sass/screen.scss */
+.m-b-no {
+  margin-bottom: 0;
+}
+
+/* line 573, ../sass/screen.scss */
+.m-b-xs {
+  margin-bottom: 10px;
+}
+
+/* line 576, ../sass/screen.scss */
+.m-b-sm {
+  margin-bottom: 20px;
+}
+
+/* line 579, ../sass/screen.scss */
+.m-b-md {
+  margin-bottom: 50px;
+}
+
+/* line 582, ../sass/screen.scss */
+.m-b-lg {
+  margin-bottom: 100px;
+}
+
+/* line 585, ../sass/screen.scss */
+.m-b-xl {
+  margin-bottom: 150px;
+}
+
+/* line 588, ../sass/screen.scss */
+.m-t-no {
+  margin-top: 0;
+}
+
+/* line 591, ../sass/screen.scss */
+.m-t-xs {
+  margin-top: 10px;
+}
+
+/* line 594, ../sass/screen.scss */
+.m-t-sm {
+  margin-top: 20px !important;
+}
+
+/* line 597, ../sass/screen.scss */
+.m-t-md {
+  margin-top: 50px;
+}
+
+/* line 600, ../sass/screen.scss */
+.m-t-lg {
+  margin-top: 100px;
+}
+
+/* line 603, ../sass/screen.scss */
+.m-t-xl {
+  margin-top: 150px;
+}
+
+/* line 606, ../sass/screen.scss */
+.alignnone {
+  margin: 0;
+}
+
+/* line 609, ../sass/screen.scss */
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 613, ../sass/screen.scss */
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* line 617, ../sass/screen.scss */
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+/* line 621, ../sass/screen.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 624, ../sass/screen.scss */
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  color: #f8ecdd;
+}
